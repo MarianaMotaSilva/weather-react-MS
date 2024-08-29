@@ -1,13 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import SearchEngine from "./SearchEngine";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="SearchEngine">
+      <h1>Weather Search Engine</h1>
+
+      <SearchEngine />
+    </div>
+    <footer>
+      <a href="" target="blank">
+        {" "}
+        This code is open-sourced
+      </a>{" "}
+      , made by
+      <a href="" target="blank">
+        {" "}
+        Mariana Silva{" "}
+      </a>
+      and hosted at
+      <a href="" target="blank">
+        {" "}
+        Netlify.{" "}
+      </a>
+    </footer>
   </React.StrictMode>
 );
 
