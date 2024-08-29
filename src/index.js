@@ -26,7 +26,7 @@ root.render(
         Mariana Silva{" "}
       </a>
       and hosted at
-      <a href="soft-cactus-60d574.netlify.app" target="blank">
+      <a href="https://master--soft-cactus-60d574.netlify.app/" target="blank">
         {" "}
         Netlify.{" "}
       </a>
