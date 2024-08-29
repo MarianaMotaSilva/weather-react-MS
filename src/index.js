@@ -13,17 +13,20 @@ root.render(
       <SearchEngine />
     </div>
     <footer>
-      <a href="" target="blank">
+      <a
+        href="https://github.com/MarianaMotaSilva/weather-react-MS"
+        target="blank"
+      >
         {" "}
         This code is open-sourced
       </a>{" "}
       , made by
-      <a href="" target="blank">
+      <a href="https://github.com/MarianaMotaSilva" target="blank">
         {" "}
         Mariana Silva{" "}
       </a>
       and hosted at
-      <a href="" target="blank">
+      <a href="soft-cactus-60d574.netlify.app" target="blank">
         {" "}
         Netlify.{" "}
       </a>
