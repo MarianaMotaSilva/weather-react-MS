@@ -1,36 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import SearchEngine from "./SearchEngine";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="SearchEngine">
-      <h1>Weather Search Engine</h1>
-
-      <SearchEngine />
-    </div>
-    <footer>
-      <a
-        href="https://github.com/MarianaMotaSilva/weather-react-MS"
-        target="blank"
-      >
-        {" "}
-        This code is open-sourced
-      </a>{" "}
-      , made by
-      <a href="https://github.com/MarianaMotaSilva" target="blank">
-        {" "}
-        Mariana Silva{" "}
-      </a>
-      and hosted at
-      <a href="https://app.netlify.com/teams/marianamotasilva" target="blank">
-        {" "}
-        Netlify.{" "}
-      </a>
-    </footer>
+    <App />
   </React.StrictMode>
 );
 

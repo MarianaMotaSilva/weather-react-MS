@@ -1,0 +1,61 @@
+.App a {
+  text-decoration: none;
+  color: #d1a273;
+}
+.Weather {
+  border: 1px solid #e1b07e;
+  border-radius: 5px;
+  color: rgb(135, 135, 135);
+  font-family: arial, sans-serif;
+  margin: 30px auto;
+  padding: 16px;
+}
+
+.Weather h1 {
+  font-size: 27px;
+  font-weight: 500;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+  color: #e1b07e;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style-type: none;
+}
+.Weather img {
+  height: 64px;
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  width: 70px;
+}
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 0;
+  position: relative;
+  left: 5px;
+  top: -29px;
+}
+.WeatherTemperature button {
+  border: none;
+  background: #f3d9b1;
+}
